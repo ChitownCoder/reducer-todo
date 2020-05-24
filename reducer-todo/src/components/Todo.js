@@ -58,7 +58,9 @@ function Todo() {
 				? todos.map((todo) => (
 						<p
 							className={`task$todo.completed ? 'completed' : ''}`}
-							style={{ textDecoration: todo.completed ? 'line-through' : '' }}
+							style={{
+								textDecoration: todo.completed ? 'line-through wavy red' : '',
+							}}
 							key={todo.id}
 							onClick={markComplete(todo.id)}
 						>

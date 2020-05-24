@@ -1,7 +1,8 @@
 export const initialState = [
 	{
+		item: 'fun time',
 		completed: false,
-		id: 3892987589,
+		id: 5569855983,
 	},
 ];
 
